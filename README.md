@@ -1,4 +1,5 @@
 Project Description:
+
   A Python project that hides secret messages inside image files using Least Significant Bit (LSB) manipulation and XOR encryption. It ensures basic confidentiality and secure message transfer without visibly altering the image.
 
 Features:
@@ -36,6 +37,7 @@ For decryption:
   View the original message if the key is correct
 
 Folder Structure:
+
   .
   ├── stego.py                 
   ├── cover_image           
