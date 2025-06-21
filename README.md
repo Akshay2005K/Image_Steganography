@@ -1,33 +1,32 @@
 Project Description:
 
-  A Python project that hides secret messages inside image files using Least Significant Bit (LSB) manipulation and XOR encryption. It ensures basic confidentiality and secure message transfer without visibly altering the image.
+    A Python project that hides secret messages inside image files using Least Significant Bit (LSB) manipulation and XOR encryption. It ensures basic confidentiality and secure message transfer without visibly altering the image.
 
 Features:
-
-  XOR-based encryption and decryption
+      
+      XOR-based encryption and decryption
   
-  LSB embedding of binary message in image pixels
+      LSB embedding of binary message in image pixels
   
-  Verification of embedded message
+      Verification of embedded message
   
-  Key authentication during decryption
+      Key authentication during decryption
   
-  Image preview using Matplotlib
+      Image preview using Matplotlib
   
-  Saves the stego image after successful encoding
+      Saves the stego image after successful encoding
   
-
 Technologies Used:
 
-  Python 3.2
+      Python 3.2
   
-  OpenCV
+      OpenCV
   
-  NumPy
+      NumPy
   
-  Matplotlib
+      Matplotlib
   
-  Standard Python libraries: time, os, string
+      Standard Python libraries: time, os, string
   
 
 How to Run:
@@ -43,29 +42,29 @@ How to Run:
 
 Steps:
 
-Choose whether to Encrypt or Decrypt
+    Choose whether to Encrypt or Decrypt
 
-For encryption:
+        For encryption:
 
-  Enter the message and key
+              Enter the message and key
   
-  Provide the cover image path
+              Provide the cover image path
   
-  Get the stego image as output
+              Get the stego image as output
   
 
-For decryption:
+        For decryption:
 
-  Provide the stego image path
+              Provide the stego image path
   
-  Enter the decryption key
+              Enter the decryption key
   
-  View the original message if the key is correct
+              View the original message if the key is correct
   
 
 Folder Structure:
 
-  .
-  ├── stego.py                 
-  ├── cover_image           
-  └── Stego_image/             
+      .
+      ├── stego.py                 
+      ├── cover_image           
+      └── Stego_image/             
